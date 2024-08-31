@@ -1,6 +1,7 @@
 .mainwrapper{
     margin-top: 10vh;
     min-height: 85vh;
+    margin-bottom: 5vh;
     width: 100vw;
     background-color: #C58940;
     display: flex;
