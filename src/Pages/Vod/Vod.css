@@ -1,0 +1,152 @@
+.vodwrapper{
+    font-family: "Cinzel", serif;
+    height: 85vh;
+    width: 100vw;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #C58940;
+}
+.cntdiv{
+    height: auto;
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.158);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: #e5b97346;
+    border: 1.8px solid rgba(255, 255, 255, 0.301);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.37);
+    margin-bottom: 30px;
+    animation: scaleAndGray 1.2s ease-out forwards;
+}
+.text>h1{
+    font-size: 3.5vw;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 1.3px dashed #E5BA73;
+    
+}
+
+.text, .num, .trans, .time, .verse{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.num h1{
+    font-size: 3vw;
+    font-weight: 500;
+
+}
+.num h2{
+    font-size: 2.5vw;
+    font-weight: 400;
+
+}
+.verse h4{
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.trans p{
+    font-size: 1.2vw;
+    font-weight: 200;
+    width: 70%;
+    text-align: center;
+}
+.time{
+    font-family: "Outfit", sans-serif;
+}
+.time>p{
+    font-size: 1vw;
+}
+.time span{
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: #FAEAB1;
+}
+.timeleft{
+    height: auto;
+    width: auto;
+    backdrop-filter: blur(10px);
+    background: #e5b97346;
+    border: 1.8px solid rgba(255, 255, 255, 0.301);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+.timeleft h2{
+    font-size: 1.5vw;
+    font-weight: 500;
+} 
+
+
+@media (max-width:800px){
+    .cntdiv{
+        width: 90%;
+    }
+    .text>h1{
+        font-size: 4vw;
+    }
+    .num h1{
+        font-size: 3.5vw;
+    }
+    .num h2{
+        font-size: 3vw;
+    }
+    .verse h4{
+        font-size: 2.3vw;
+    }
+    .trans p{
+        font-size: 1.5vw;
+        font-weight: 600;
+    }
+    .time p{
+        font-size: 2vw;
+    }
+    .time span{
+        font-size: 2.5vw;
+    }
+    .timeleft h2{
+        font-size: 2vw;
+    }
+}
+@media (max-width:450px){
+
+    .text>h1{
+        font-size: 6vw;
+    }
+    .num h1{
+        font-size: 5vw;
+    }
+    .num h2{
+        font-size: 4vw;
+    }
+    .verse h4{
+        font-size: 4.5vw;
+        width: 80%;
+    }
+    .trans p{
+        font-size: 4vw;
+        font-weight: 500;
+        width: 80%;
+    }
+    .time p{
+        font-size: 3vw;
+    }
+    .time span{
+        font-size: 4vw;
+    }
+    .timeleft h2{
+        font-size: 3.5vw;
+    }
+}

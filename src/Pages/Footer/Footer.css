@@ -1,0 +1,41 @@
+.footer {
+    height: 5vh;
+    width: 100vw;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    border-bottom: 2px solid rgba(245, 245, 245, 0.582);
+    backdrop-filter: blur(2px);
+    background: #d89e40b7;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.329);
+    border: 1.8px solid #d89e404f;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+}
+
+#made,
+#self {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#made p,
+#self i {
+    font-size: 12px;
+}
+
+#made i {
+    font-size: 20px;
+    color: black;
+}
+
+#self a {
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "Cinzel", sans-serif;
+}

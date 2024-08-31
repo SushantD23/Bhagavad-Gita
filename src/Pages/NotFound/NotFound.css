@@ -1,0 +1,69 @@
+.imgwrap {
+    height: 90vh;
+    width: 100vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: #C58940;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: "Outfit", sans-serif;
+}
+
+.imgwrap>img {
+    height: 50%;
+    width: 80%;
+    object-fit: contain;
+}
+
+.nfcnt {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.nfcnt p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nfcnt span {
+    color: rgb(212, 30, 30);
+    font-weight: 600;
+}
+
+.nfcnt h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nfcnt button {
+    height: 45px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background: #e5b97346;
+    border: 1.8px solid rgba(255, 255, 255, 0.301);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.37);
+
+    &:hover {
+        filter: grayscale(15%);
+    }
+}
+
+@media (max-width: 425px){
+    .nfcnt h2 {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .nfcnt p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+}

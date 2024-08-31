@@ -1,0 +1,68 @@
+.chapterwrapper{
+    min-height: 85vh;
+    width: 100vw;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Cinzel";
+    background-color: #C58940;
+}
+.chapterdata{
+    height: auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.chapterdata h1{
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+.chapterdata h2{
+    font-size: 2vw;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.chapterdata p{
+    width: 100%;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+@media (max-width: 768px){
+    .chapterdata h1{
+        font-size: 4vw;
+    }
+    .chapterdata h2{
+        font-size: 2.5vw;
+    }
+    .chapterdata p{
+        font-size: 1.6vw;
+    }
+}
+
+@media (max-width: 500px){
+    .chapterdata h1{
+        font-size: 5vw;
+    }
+    .chapterdata h2{
+        font-size: 3vw;
+    }
+    .chapterdata p{
+        font-size: 2.3vw;
+    }
+}
+@media (max-width: 400px){
+    .chapterdata h1{
+        font-size: 7vw;
+    }
+    .chapterdata h2{
+        font-size: 4vw;
+    }
+    .chapterdata p{
+        font-size: 3vw;
+    }
+}
