@@ -12,7 +12,7 @@ import Issue from "./Pages/Issue/Issue.jsx";
 
 
 // Creating new QueryClient instances...
-const queryClient = new QueryClient();
+const queryClient = new QueryClient(); 
 
 const router = createBrowserRouter([
   {

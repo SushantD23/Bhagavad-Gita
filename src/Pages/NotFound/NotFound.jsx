@@ -11,7 +11,7 @@ function NotFound() {
       <img src={err} alt="" />
       <div className="nfcnt">
         <p>
-          Whoops seems like you're a bit <span>lost</span>...
+          Whoops seems like the page is <span>losted...</span>
         </p>
         <h2>No worries, let's explore other content.</h2>
         <button onClick={() => navigate("/")}>Go to Home</button>

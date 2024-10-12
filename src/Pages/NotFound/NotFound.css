@@ -12,8 +12,9 @@
 }
 
 .imgwrap>img {
-    height: 50%;
-    width: 80%;
+    height: 60%;
+    width: 90%;
+    /* background-color: #FAF8F1; */
     object-fit: contain;
 }
 
@@ -42,7 +43,7 @@
 
 .nfcnt button {
     height: 45px;
-    width: 100px;
+    width: 95px;
     font-size: 15px;
     font-weight: 500;
     border: none;
@@ -65,5 +66,9 @@
     .nfcnt p {
         font-size: 10px;
         font-weight: 400;
+    }
+    .nfcnt button{
+        height: 35px;
+        width: 95px;
     }
 }
