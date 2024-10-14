@@ -38,7 +38,7 @@ function Header() {
             to="/issuefeed" 
             className={({ isActive }) => (isActive ? "active-link" : "inactive-link")}
             onClick={(e) => {
-              e.preventDefault();
+              // e.preventDefault();
             }}
           >
             <h2>Issues?</h2>
